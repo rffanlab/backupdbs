@@ -1,0 +1,6 @@
+.idea
+*.exe
+*.exe~
+conf/id_rsa
+conf/id_rsa.pub
+conf/setting.conf

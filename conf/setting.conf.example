@@ -1,0 +1,29 @@
+# 请将后面的.example 去掉。
+# 请配置好下面的配置
+# 如果配置了前缀和分隔符还有后缀，以分隔符为"-"为例最终成型的应该是 prefix-time.suffix, 这样的格式应该够用了吧
+# 远程主机地址，可以是IP也可以是域名
+RemoteHost=
+# 远程端口 默认为22 不填就是22
+RemotePort=
+# 远程主机用户
+RemoteUser=
+# 远程密码 最好是用秘钥验证
+RemotePass=
+# 远程验证秘钥路径
+RemoteKeyFile=
+# 远程备份路径
+RemoteBackupPath=
+# 备份规则 目前仅支持按照小时来
+BackupRule=
+# 本地备份地址
+LocalBackupPath=
+# 备份方式：远程到本地get，本地到远程put
+Type=get
+# 时间格式 2006-01-02 15:04:05 请仅修改格式，不要修改日期 必须的 因为谷歌设定了这个奇葩的设定来进行日期格式化
+TimeFormat=
+# 分隔符 不能是“=” 不是必须的
+Divider=
+# 前缀 不是必须的
+Prefix=
+# 后缀 不是必须的
+Suffix=
