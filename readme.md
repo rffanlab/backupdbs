@@ -5,4 +5,5 @@
 go get -u github.com/pkg/sftp  
 go get -u golang.org/x/crypto/ssh  
 # 使用
-一切的精华都在配置文件里面。因为配置文件里面
+一切的精华都在配置文件里面。因为配置文件里面。  
+将setting.conf.example文件修改为setting.conf 然后填写一下里面的配置文件就OK了。
